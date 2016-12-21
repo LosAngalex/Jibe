@@ -69,11 +69,13 @@
    }
  }
 
- @media (min-width: 768px) { 
+ @media (width: 2560px) { 
    .container {
-   width: 991px;
+   width: 2560px; height: 1600px;
    }
 }
+
+
 
 /* Assignment 30 - TV 
 @media (min-width: 1080px) {
