@@ -74,3 +74,40 @@
    width: 991px;
    }
 }
+
+/* HEADER */
+ header {
+   color:#FFFFFF;
+   background: #34485e;
+   background-image: linear-gradient( 30deg, rgb(6,31,51) 0%, rgb(4,113,166) 52%, rgb(98,187,193) 100%);
+ }
+
+ header nav {
+   padding:1em 0;
+ }
+ header nav ul {
+   display:inline;
+   text-align: right;
+   float:right;
+   margin:0;
+ }
+ header nav ul > li {
+   list-style-type: none;
+   display: inline-block;
+   margin:0 15px;
+ }
+ header nav ul > li.btn-outline {
+   padding:10px 15px;
+   border:2px solid #FFFFFF;
+   border-radius: 4px;
+ }
+ header nav ul > li.btn-outline:hover {
+   background:#FFFFFF;
+ }
+ header nav ul > li > a {
+   color:#FFFFFF;
+   text-decoration: none;
+ }
+ header nav ul > li.btn-outline:hover > a {
+   color:#34495E;
+ }
