@@ -145,7 +145,11 @@
  }
  header .hero img {
    display: block;
-   margin:3em auto 0;
+   float:left;
+ }
+
+ header .hero .signup-container {
+   float:right;
  }
 
  /* BUTTONS */
@@ -330,8 +334,9 @@
 
   /* FOOTER */
  footer {
-   background-color: #0471a6;
-   background-image: linear-gradient(to top, #061f33 0%, #061f33 50%, #0471a6 50%, #0471a6 100%);
+   background-color: #061f33;
+   background-image: linear-gradient(to top,
+      #0471a6 0%, #0471a6 50%, #061f33 50%, #061f33 100%);
    color: #FFFFFF;
    height: 150px;
    position: relative;
@@ -361,11 +366,11 @@
    display: block;
  }
 
-  @media (min-width: 992px){
+ @media (min-width: 992px){
    footer{
-     background-color: #061f33;
+     background-color: #0471a6;
      background-image: linear-gradient(to left,
-        #061f33 0%, #061f33 33.33337%, #0471a6 33.33337%, #0471a6 100%);
+        #0471a6 0%, #0471a6 26%, #061f33 33.33337%, #061f33 100%);
      height: 100px;
    }
    footer p, footer nav ul{
@@ -373,12 +378,10 @@
      text-align: left;
    }
    footer .right-footer-block {
-     background-color: #34495E;
+     background-color: #0471a6;
    }
    footer .logo{
-     padding: 2em 1.5em 2em 1.5em;
+     padding: 8px 0 2em 1.5em;
+     height: 90px;
    }
-
-}
  }
-
