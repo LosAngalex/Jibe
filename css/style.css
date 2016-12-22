@@ -70,6 +70,10 @@
    .one-fourth {
      width:21%;
    }
+
+   .one-fourth-2 {
+     width:21%;
+   }
  }
  @media (min-width: 1200px) {
    .container {
