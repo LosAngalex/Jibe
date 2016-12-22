@@ -48,6 +48,7 @@
    .container {
      width: 750px;
    }
+
  }
  @media (min-width: 992px) {
    .container {
@@ -79,25 +80,6 @@
    width: 2560px; height: 1600px;
    }
 }
-
-@media only screen and (max-device-width: 480px) {
-   .container {
-     width: 500px;
-   }
-   .one-half {
-     width:46%;
-   }
-   .one-third {
-     width:29.33333%;
-   }
-   .one-fourth {
-     width:21%;
-   }
-
-   .one-fourth-2 {
-     width:21%;
-
-   }
 
 
 /* Assignment 30 - TV 
@@ -345,3 +327,58 @@
    font-size:13px;
    margin-top: 30px;
  }
+
+  /* FOOTER */
+ footer {
+   background-color: #0471a6;
+   background-image: linear-gradient(to top, #061f33 0%, #061f33 50%, #0471a6 50%, #0471a6 100%);
+   color: #FFFFFF;
+   height: 150px;
+   position: relative;
+   overflow: hidden;
+   z-index: 0;
+ }
+ footer p, footer nav ul {
+   font-size:13px;
+   font-weight:100;
+   text-align: center;
+   margin: 9px auto 0;
+ }
+ footer nav ul li {
+   list-style-type: none;
+   display: inline;
+ }
+ footer nav ul li a {
+   color:#FFFFFF;
+   text-decoration: none;
+ }
+ footer .right-footer-block {
+   background-color: transparent;
+ }
+ footer .logo{
+   padding: 2.35em 0;
+   margin: 0 auto;
+   display: block;
+ }
+
+  @media (min-width: 992px){
+   footer{
+     background-color: #061f33;
+     background-image: linear-gradient(to left,
+        #061f33 0%, #061f33 33.33337%, #0471a6 33.33337%, #0471a6 100%);
+     height: 100px;
+   }
+   footer p, footer nav ul{
+     padding: 2em 0;
+     text-align: left;
+   }
+   footer .right-footer-block {
+     background-color: #34495E;
+   }
+   footer .logo{
+     padding: 2em 1.5em 2em 1.5em;
+   }
+
+}
+ }
+
